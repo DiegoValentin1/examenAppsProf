@@ -1,0 +1,64 @@
+@import "./base.css";
+
+#app{
+  color: black;
+}
+
+#ruter{
+  background-color: white;
+  width: 76.5vw;
+  height: 90vh;
+  margin-left: 23.5vw;
+}
+
+#navv{
+  background-color: black;
+  width: 76.5vw;
+  height: 10vh;
+  margin-left: 23.5vw;
+}
+
+#navboot{
+  margin: 0;
+}
+
+#footer{
+  bottom: 0;
+  height: 10vh;
+  background-color: #333;
+  color: #f2f2f2;
+  display: grid;
+  place-items: center;
+}
+
+#landing{
+  display: flex;
+  flex-direction: column;
+}
+
+#bodyland{
+  height: 65vh;
+}
+
+#home{
+  padding: 1rem;
+  display: grid;
+  place-items: center;
+}
+
+#pagination{
+  display: grid;
+  place-items: center;
+}
+
+#formboot{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 3rem;
+  gap: 10px;
+}
+
+#formbuton{
+  background-color: #333;
+  color: #f2f2f2;
+}
